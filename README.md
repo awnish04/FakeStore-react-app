@@ -1,1 +1,1 @@
-# FakeStore-react-app
+# ecommerce-shop-starter
