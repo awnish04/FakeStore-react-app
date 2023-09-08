@@ -7,11 +7,13 @@ import ProductDetails from "../pages/ProductDetails.js";
 // Import components
 import Sidebar from "../components/Sidebar.js";
 import Footer from "../components/Footer.js";
-
+// import AllProducts from "../components/AllProducts.js";
 // import routes route & useLocation
 import { Routes, Route, useLocation } from "react-router-dom";
 
 import { AnimatePresence } from "framer-motion";
+
+
 
 const AnimRoutes = () => {
   const location = useLocation();
@@ -31,6 +33,7 @@ const AnimRoutes = () => {
     <AnimatePresence initial={true} mode="wait">
       <Routes key={location.pathname} location={location}>
         <Route path="/" element={<Home />} />
+        {/* <Route path="/allproducts" element={<AllProducts />} /> */}
         <Route path="/product/:id" element={<ProductDetails />} />
       </Routes>
       <Sidebar />

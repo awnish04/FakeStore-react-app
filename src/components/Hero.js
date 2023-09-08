@@ -20,7 +20,7 @@ const variantsContainer = {
   exit: {
     opacity: 0,
     x: -100,
-    delay:0.8,
+    delay: 0.8,
   },
 };
 
@@ -37,7 +37,7 @@ const buttonVariants = {
 const Hero = () => {
   return (
     <section className="h-[700px] bg-hero bg-no-repeat bg-cover bg-center py-4 ">
-      <div className="container mx-auto flex  h-full px-12">
+      <div className="container mx-auto flex  h-full px-10 lg:px-24">
         {/* text */}
         <motion.div
           className="flex flex-col justify-center"
@@ -51,10 +51,10 @@ const Hero = () => {
             <div className="w-8 lg:w-12 h-1 bg-[#f49f45] mr-3"></div>
             <span className="text-white">New Trend</span>
           </div>
-          <h1 className="uppercase text-white font-semibold text-3xl lg:text-7xl  mb-4  ">
+          <h1 className="uppercase text-white font-bold text-3xl lg:text-7xl  mb-4  ">
             Discover Your Style
             <br />
-            <span className="text-xl lg:text-3xl font-light">
+            <span className="text-xl lg:text-3xl font-medium">
               Shop the Latest Trends at Unbeatable Prices
             </span>
           </h1>

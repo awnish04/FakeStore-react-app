@@ -15,7 +15,8 @@ const ProductProvider = ({ children }) => {
       setProduct(data);
     };
     fetchProducts();
-  }, []);
+  }, [products]); // Specify products as a dependency
+  
 
   return (
     <ProductContext.Provider value={{ products }}>
