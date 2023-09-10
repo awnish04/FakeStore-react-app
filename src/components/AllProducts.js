@@ -78,7 +78,7 @@ const AllProducts = () => {
   return (
     <div>
       <section className=" bg-[#b1d2e3] h-full">
-        <div className="container mx-auto  px-24">
+        <div className="container mx-auto  lg:px-24">
           <div className="flex justify-center items-center py-12">
             {/* <div>
               <input

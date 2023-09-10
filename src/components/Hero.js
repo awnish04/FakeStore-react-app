@@ -54,7 +54,7 @@ const Hero = () => {
           <h1 className="uppercase text-white font-bold text-3xl lg:text-7xl  mb-4  ">
             Discover Your Style
             <br />
-            <span className="text-xl lg:text-3xl font-medium">
+            <span className="text-lg lg:text-3xl font-medium">
               Shop the Latest Trends at Unbeatable Prices
             </span>
           </h1>
