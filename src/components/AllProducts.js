@@ -26,7 +26,7 @@ const AllProducts = () => {
 
   // Filter products based on search query
   const filteredProducts = products.filter((product) =>
-    product.title.toLowerCase().includes(searchQuery.toLowerCase())
+    product.category.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   const productListVariants = {
